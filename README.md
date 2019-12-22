@@ -8,7 +8,11 @@ dvpx.map - Programmer Dvorak with `<Escape>` and `<Caps_Lock>` exchanged.
 Usage
 -----
 
+None of this is needed anymore just do this:
+```bash
+localectl --no-convert dvorak-programmer
 Copy keymap file to keymaps directory.
+```
 
 
 Tips
