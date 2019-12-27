@@ -22,7 +22,7 @@ fi
 
 command="cp dvp.map dvpx.map $dest"
 echo $command
-$command
+sudo $command
 if [ $? -ne 0 ]; then
   echo -e "\033[31mFailed.\033[0m"
   exit 2
