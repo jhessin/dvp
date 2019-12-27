@@ -77,3 +77,8 @@ keycode 80 = KP_8         x
 keycode 81 = KP_9         colon
 keycode 82 = KP_0         backslash
 keycode 83 = period       semicolon
+
+keycode 111= Up           A
+keycode 113= Left         D
+keycode 114= Right        C
+keycode 116= Down         B
