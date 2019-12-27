@@ -29,3 +29,5 @@ if [ $? -ne 0 ]; then
 else
   echo -e "\033[32mSucceeded.\033[0m"
 fi
+
+localectl set-keymap --no-convert dvp
