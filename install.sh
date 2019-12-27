@@ -30,4 +30,5 @@ else
   echo -e "\033[32mSucceeded.\033[0m"
 fi
 
+localectl set-x11-keymap us pc105 dvp compose:102,numpad:shift3,kpdl:semi,keypad:atm,caps:escape
 localectl set-keymap --no-convert dvp
