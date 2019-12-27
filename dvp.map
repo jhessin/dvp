@@ -58,7 +58,7 @@ keycode 53 = z
 keycode 54 = Shift
 keycode 56 = Alt
 keycode 57 = space
-keycode 58 = Caps_Lock
+keycode 58 = Escape
 keycode 86 = less        greater
 keycode 97 = Control
 
