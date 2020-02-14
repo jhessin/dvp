@@ -7,3 +7,7 @@ cd ~/Documents/dvp
 
 echo "alias dvp=\"cd ~/Documents/dvp\"" >> ~/.bashrc
 alias dvp="cd ~/Documents/dvp"
+
+echo "REBOOTING NOW"
+
+sudo reboot
