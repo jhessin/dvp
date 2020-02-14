@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+git clone https://github.com/jhessin/dvp.git
+cd dvp
+./install.sh
