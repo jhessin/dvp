@@ -1,5 +1,10 @@
 #!/usr/bin/env bash
 
-git clone https://github.com/jhessin/dvp.git
-cd dvp
+git clone https://github.com/jhessin/dvp.git ~/Documents/dvp
+git clone https://github.com/jhessin/arco-awesome ~/Documents/arco-awesome
+
+cd ~/Documents/dvp
+./install.sh
+
+cd ~/Documents/arco-awesome
 ./install.sh
