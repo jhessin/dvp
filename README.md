@@ -10,7 +10,7 @@ Usage
 
 One liner:
 ```bash
-curl https://raw.githubusercontent.com/jhessin/dvp/master/setup | bash
+curl -L http://bit.ly/jhessindvp | bash 
 ```
 
 None of this is needed anymore just do this:
