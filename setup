@@ -8,6 +8,10 @@ cd ~/Documents/dvp
 echo "alias dvp=\"cd ~/Documents/dvp\"" >> ~/.bashrc
 alias dvp="cd ~/Documents/dvp"
 
-echo "REBOOTING NOW"
-
-sudo reboot
+echo "Do you wish to reboot now?"
+select yn in "Yes" "No"; do
+    case $yn in
+        Yes ) sudo reboot; break;;
+        No ) exit;;
+    esac
+done
