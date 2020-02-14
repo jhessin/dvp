@@ -8,6 +8,11 @@ dvpx.map - Programmer Dvorak with `<Escape>` and `<Caps_Lock>` exchanged.
 Usage
 -----
 
+One liner:
+```bash
+curl https://raw.githubusercontent.com/jhessin/dvp/master/setup | bash
+```
+
 None of this is needed anymore just do this:
 ```bash
 localectl --no-convert dvorak-programmer
