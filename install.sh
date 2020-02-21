@@ -10,6 +10,9 @@ if ! confirm "Are you sure you want to continue"; then
   exit 1;
 fi
 
+rm -rf ~/.local/bin
+git clone https://github.com/jhessin/bin.git ~/.local/bin
+
 dirs="/usr/share/keymaps/i386/dvorak /usr/share/kbd/keymaps/i386/dvorak"
 for dir in $dirs
 do
