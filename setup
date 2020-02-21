@@ -2,16 +2,8 @@
 
 git clone https://github.com/jhessin/dvp.git ~/Documents/dvp
 
-cd ~/Documents/dvp
-./install.sh
-
 echo "alias dvp=\"cd ~/Documents/dvp\"" >> ~/.bashrc
 alias dvp="cd ~/Documents/dvp"
 
-echo "Do you wish to reboot now?"
-select yn in "Yes" "No"; do
-    case $yn in
-        Yes ) sudo reboot; break;;
-        No ) exit;;
-    esac
-done
+cd ~/Documents/dvp
+./install.sh
