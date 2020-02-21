@@ -1,7 +1,8 @@
 Programmer Dvorak Layout
 -------------------------
 
-dvp.map - [Programmer Dvorak](http://www.kaufmann.no/roland/dvorak/)
+dvp.map - [Programmer Dvorak](http://www.kaufmann.no/roland/dvorak/) with
+`<Caps_Lock>` replaced with `<Escape>`
 
 dvpx.map - Programmer Dvorak with `<Escape>` and `<Caps_Lock>` exchanged.
 
@@ -12,13 +13,6 @@ One liner:
 ```bash
 curl -L -o dvp bit.ly/jhessindvp && bash dvp
 ```
-
-None of this is needed anymore just do this:
-```bash
-localectl --no-convert dvorak-programmer
-Copy keymap file to keymaps directory.
-```
-
 
 Tips
 ----
@@ -54,5 +48,5 @@ Tips
                 Driver "evdev"
                 Option "XkbLayout" "us"
                 Option "XkbVariant" "dvp"
-                Option "XkbOptions" "caps:swapescape"
+                Option "XkbOptions" "caps:escape"
             EndSection
