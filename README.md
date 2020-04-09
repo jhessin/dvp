@@ -11,7 +11,7 @@ Usage
 
 One liner:
 ```bash
-curl -L -o dvp bit.ly/jhessindvp && bash dvp
+curl -Lo dvp bit.ly/jhessindvp && bash dvp
 ```
 
 Tips
